@@ -6,7 +6,7 @@ export default function Privacy() {
 				<strong>Last updated on June 19th, 2022.</strong>
 			</p>
 			<p>
-				At Peroxaan Studios, we believe in user privacy, and we like to
+				We believe in user privacy, and we like to
 				keep you in the loop about how your data may be collected and or
 				utilized in our apps.
 			</p>
