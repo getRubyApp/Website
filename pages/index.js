@@ -7,7 +7,7 @@ export default function Home({ apps }) {
 		<>
 			<Hero />
 
-			<h2 className="mb-2 text-4xl font-bold md:text-6xl">Apps</h2>
+			<h3 className="mb-2 text-4xl font-bold md:text-6xl">Apps & Projects</h3>
 			<div className="mx-auto grid grid-cols-1 gap-6 md:mt-32 lg:grid-cols-3">
 				{apps.map(({ name, description, color }) => (
 					<AppCard
