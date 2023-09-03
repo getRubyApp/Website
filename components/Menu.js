@@ -79,22 +79,22 @@ export default function Menu({ open, setOpen }) {
 					</div>
 					<div className="mx-auto flex flex-row">
 						<a
-							href="https://twitter.com/Peroxaan"
-							aria-label="Peroxaan on Twitter"
+							href="https://x.com/tme_michael"
+							aria-label="Michael on X"
 							className="p-4"
 						>
 							<IconBrandTwitter size={32} />
 						</a>
 						<a
-							href="https://instagram.com/Peroxaan"
-							aria-label="Peroxaan on Instagram"
+							href="https://instagram.com/tme_michael"
+							aria-label="Michael on Instagram"
 							className="p-4"
 						>
 							<IconBrandInstagram size={32} />
 						</a>
 						<a
-							href="https://github.com/Peroxaan"
-							aria-label="Peroxaan on GitHub"
+							href="https://github.com/michaelburkhardt"
+							aria-label="Michael on GitHub"
 							className="p-4"
 						>
 							<IconBrandGithub size={32} />
