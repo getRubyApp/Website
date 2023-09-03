@@ -7,14 +7,14 @@ import { Inter } from "@next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function App({ Component, pageProps }) {
-	const title = pageProps?.seo?.title ?? "Peroxaan Studios";
+	const title = pageProps?.seo?.title ?? "Michael Burkhardt";
 
 	const pageTitle = pageProps?.seo?.title
-		? pageProps.seo.title + " | Peroxaan Studios"
-		: "Peroxaan Studios";
+		? pageProps.seo.title + " | Michael Burkhardt"
+		: "Michael Burkhardt";
 	const description =
 		pageProps?.seo?.description ??
-		"High-quality experiences for iOS, macOS, and Windows.";
+		"iOS App Developer, Tech Enthusiast, Creator";
 	const image =
 		process.env.NEXT_PUBLIC_URL + (pageProps?.seo?.image ?? "/cover.png");
 	const imageAlt =
@@ -26,14 +26,14 @@ export default function App({ Component, pageProps }) {
 			<Head>
 				<title>{pageTitle}</title>
 				<meta name="description" content={description} />
-				<meta name="theme-color" content="#ff6c8b" />
+				<meta name="theme-color" content="#427eff" />
 				<meta property="og:title" content={title} />
 				<meta property="og:description" content={description} />
 				<meta property="og:image" content={image} />
 				<meta property="og:image:alt" content={imageAlt} />
 				<meta property="og:type" content="website" />
-				<meta property="og:url" content="https://peroxaan.com" />
-				<meta property="og:site_name" content="Peroxaan Studios" />
+				<meta property="og:url" content="https://michaelb.nyc" />
+				<meta property="og:site_name" content="Michael Burkhardt" />
 				<meta name="twitter:card" content="summary_large_image" />
 			</Head>
 
@@ -51,7 +51,7 @@ export default function App({ Component, pageProps }) {
 			</main>
 
 			<footer className="my-20 mx-auto max-w-7xl px-6 text-zinc-600 dark:text-zinc-400 2xl:px-0">
-				<p>© 2023 Peroxaan Studios, LLC.</p>
+				<p>© 2023 Michael Burkhardt.</p>
 				<p>
 					Website built by{" "}
 					<a
@@ -59,16 +59,6 @@ export default function App({ Component, pageProps }) {
 						className="underline transition-colors ease-in-out hover:text-blue-700 dark:hover:text-blue-300"
 					>
 						Nick Oates
-					</a>
-					.
-				</p>
-				<p className="mb-2">
-					Peroxaan logo designed by{" "}
-					<a
-						href="https://twitter.com/DylanMcD8"
-						className="underline transition-colors ease-in-out hover:text-blue-700 dark:hover:text-blue-300"
-					>
-						Dylan McDonald
 					</a>
 					.
 				</p>
