@@ -1,4 +1,6 @@
-# 🌐 Peroxaan Website
+# 🌐 Website
+
+Derived from Peroxaan website. Originally developed by [Nick Oates](https://nickoates.com).
 
 Built with:
 
@@ -8,4 +10,4 @@ Built with:
 
 ## 📜 License
 
-    © 2023 Peroxaan Studios, LLC. All rights reserved.
+    © 2023 Michael Burkhardt. All rights reserved.
