@@ -61,9 +61,8 @@ export default function Navbar() {
 				href="/"
 				className="rounded-lg px-2 py-2 text-2xl font-extrabold transition-colors ease-in-out hover:bg-zinc-200 dark:hover:bg-zinc-800 xl:px-6"
 			>
-				<div className="bg-gradient-to-r from-pink-500 to-pink-600 bg-clip-text text-transparent dark:from-pink-400 dark:to-pink-600">
-					<PeroxaanIcon className="mr-2 inline-block align-text-bottom text-pink-600 dark:text-pink-400" />
-					Peroxaan
+				<div className="bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent dark:from-blue-400 dark:to-blue-600">
+					Michael Burkhardt
 				</div>
 			</Link>
 			<div className="hidden text-xl font-semibold lg:block">{links}</div>
