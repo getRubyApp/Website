@@ -61,7 +61,7 @@ export default function Hero() {
 			<div className="relative mx-auto h-72 w-full lg:h-96">
 				<Image
 					fill
-					alt="Apple devices showing Peroxaan apps running on them."
+					alt="Apple devices showing my apps running on them."
 					src="/Hero.png"
 					className="object-contain"
 					sizes="(max-width: 1024px) 100vw, (max-width: 1280px) 50vw, 640px"

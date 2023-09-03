@@ -6,13 +6,13 @@ export default function Privacy() {
 				<strong>Last updated on June 19th, 2022.</strong>
 			</p>
 			<p>
-				At Peroxaan Studios, we believe in user privacy, and we like to
+				We believe in user privacy, and we like to
 				keep you in the loop about how your data may be collected and or
 				utilized in our apps.
 			</p>
 			<p>
 				First and foremost, majority of data is actually collected by
-				third parties, and Peroxaan doesn&apos;t have access to most of
+				third parties, and I don&apos;t have access to most of
 				it. Whether this be your Webhook data sent over Discord in
 				Talon, or the bookmark data stored in iCloud for Ruby on iOS,
 				this is data handled by third parties, and you should reference
@@ -37,12 +37,12 @@ export default function Privacy() {
 				by those respective platforms, not us.
 			</p>
 			<p>
-				In Ruby, there is no data collected by Peroxaan as of now,
+				In Ruby, there is no data collected as of now,
 				however - Ruby uses the Microsoft News API, and data may be
 				collected by Microsoft when sending requests to their API. In
 				addition to that, user data such as Bookmarks and other user
 				preferences may be stored in iCloud and on device. This data is
-				not accessible by Peroxaan.
+				not accessible by me.
 			</p>
 			<p>
 				As for unreleased projects, details on their data collection

@@ -69,20 +69,20 @@ export default function Navbar() {
 			<div className="hidden text-xl font-semibold lg:block">{links}</div>
 			<div className="flex flex-row items-center">
 				<a
-					href="https://twitter.com/peroxaan"
-					aria-label="Visit Peroxaan on Twitter"
+					href="https://x.com/tme_michael"
+					aria-label="My X (formerly Twitter) Profile"
 				>
 					<IconBrandTwitter className="hidden h-full w-10 rounded-lg p-2 transition-colors ease-in-out hover:bg-zinc-200 dark:hover:bg-zinc-800 lg:block" />
 				</a>
 				<a
-					href="https://instagram.com/peroxaan"
-					aria-label="Visit Peroxaan on Instagram"
+					href="https://instagram.com/tme_michael"
+					aria-label="My Instragram Profile"
 				>
 					<IconBrandInstagram className="hidden h-full w-10 rounded-lg p-2 transition-colors ease-in-out hover:bg-zinc-200 dark:hover:bg-zinc-800 lg:block" />
 				</a>
 				<a
-					href="https://github.com/peroxaan"
-					aria-label="Visit Peroxaan on GitHub"
+					href="https://github.com/michaelburkhardt"
+					aria-label="My GitHub Profile"
 				>
 					<IconBrandGithub className="hidden h-full w-10 rounded-lg p-2 transition-colors ease-in-out hover:bg-zinc-200 dark:hover:bg-zinc-800 lg:block" />
 				</a>
