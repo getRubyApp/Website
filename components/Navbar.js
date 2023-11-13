@@ -11,7 +11,7 @@ import Menu from "./Menu";
 import PeroxaanIcon from "./PeroxaanIcon";
 
 const navLinks = {
-	Newsroom: "/newsroom",
+	Blog: "/newsroom",
 	Ruby: "/ruby",
 	Talon: "/talon",
 	Evergreen: "/evergreen",

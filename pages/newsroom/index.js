@@ -48,7 +48,7 @@ export const getStaticProps = () => {
 		props: {
 			posts,
 			seo: {
-				title: "Newsroom",
+				title: "Blog",
 				description:
 					"The latest announcements & updates from the Peroxaan team.",
 				image: "/newsroom.png",

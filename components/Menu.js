@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const navLinks = {
-	Newsroom: "/newsroom",
+	Blog: "/newsroom",
 	Ruby: "/ruby",
 	Talon: "/talon",
 	Evergreen: "/evergreen",
