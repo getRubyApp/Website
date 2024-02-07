@@ -10,4 +10,4 @@ Built with:
 
 ## 📜 License
 
-    © 2023 Michael Burkhardt. All rights reserved.
+    © 2024 Michael Burkhardt. All rights reserved.

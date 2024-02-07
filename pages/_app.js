@@ -51,7 +51,7 @@ export default function App({ Component, pageProps }) {
 			</main>
 
 			<footer className="my-20 mx-auto max-w-7xl px-6 text-zinc-600 dark:text-zinc-400 2xl:px-0">
-				<p>© 2023 Michael Burkhardt.</p>
+				<p>© 2024 Michael Burkhardt.</p>
 				<p>
 					Website built by{" "}
 					<a
