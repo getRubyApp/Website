@@ -16,5 +16,5 @@ The built in news reader is easy to understand, and provides content from your f
 Ruby also offers an Apple Watch app, where you can quickly view headlines on your wrist. The Apple Watch app has the same functionality as the iPhone app, so you can easily read headlines of a specific topic, and more.
 
 <ContributorGrid>
-    <Contributor name="Michael Burkhardt" role="Lead developer" href="https://twitter.com/tme_michael" />
+    <Contributor name="Michael Burkhardt" role="Lead developer" href="https://twitter.com/mbrkhrdt" />
 </ContributorGrid>

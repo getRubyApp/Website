@@ -11,6 +11,6 @@ Evergreen is an easy-to-use finance app that allows kids, teens, and adults to q
 Evergreen has a beautiful design, with iPhone, iPad, and Mac at its core, so it's easy to use. It also has some great customization features such as changing the font and background of the app. All of your Evergreen data also syncs across all devices signed into your iCloud account.
 
 <ContributorGrid>
-    <Contributor name="Michael Burkhardt" role="Lead developer" href="https://twitter.com/tme_michael" />
+    <Contributor name="Michael Burkhardt" role="Lead developer" href="https://twitter.com/mbrkhrdt" />
     <Contributor name="Dylan McDonald" role="Original creator" href="https://twitter.com/DylanMcD8" />
 </ContributorGrid>
