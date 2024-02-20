@@ -25,7 +25,7 @@ export default function Newsroom({ posts }) {
 		<>
 			<h1 className="mb-2 text-4xl font-bold md:text-6xl">Newsroom</h1>
 			<p className="text-xl md:text-2xl">
-				Michael&apos;s latest announcements & updates.
+				Ruby&apos;s latest announcements & updates.
 			</p>
 			<div className="mt-8 flex flex-col md:mt-16">{postList}</div>
 		</>
@@ -50,10 +50,10 @@ export const getStaticProps = () => {
 			seo: {
 				title: "Blog",
 				description:
-					"The latest announcements & updates from the Peroxaan team.",
+					"The latest announcements & updates from Ruby.",
 				image: "/newsroom.png",
 				imageAlt:
-					"Peroxaan Newsroom logo and name on a white background.",
+					"Ruby logo and name on a white background.",
 			},
 		},
 	};
