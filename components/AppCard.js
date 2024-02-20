@@ -25,7 +25,7 @@ export default function AppCard({ name, description, color = "zinc" }) {
 				"rounded-md p-6 drop-shadow transition ease-in-out",
 				colorMap[color]
 			)}
-			href={"/" + name.toLowerCase()}
+			href={"/" /*+ name.toLowerCase()*/}
 		>
 			<h1 className="mb-2 text-4xl font-extrabold">{name}</h1>
 			<p className="text-xl">{description}</p>
