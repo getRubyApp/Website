@@ -3,57 +3,41 @@ export default function Privacy() {
 		<div className="prose prose-xl dark:prose-invert md:prose-2xl">
 			<h1>Privacy Policy</h1>
 			<p>
-				<strong>Last updated on June 19th, 2022.</strong>
+				<strong>Last updated on February 20th, 2024.</strong>
 			</p>
 			<p>
 				We believe in user privacy, and we like to
 				keep you in the loop about how your data may be collected and or
-				utilized in our apps.
+				utilized in Ruby.
 			</p>
 			<p>
 				First and foremost, majority of data is actually collected by
-				third parties, and I don&apos;t have access to most of
-				it. Whether this be your Webhook data sent over Discord in
-				Talon, or the bookmark data stored in iCloud for Ruby on iOS,
-				this is data handled by third parties, and you should reference
-				their respective privacy policies for more information on that.
+				third parties, and we don&apos;t have access to most of it. 
+				Between clicking on articles, saving bookmarks, or anything else,
+				we don't collect any user data on what you're specifically doing.
 			</p>
 			<p>
 				There is a very limited amount of data we actually collect,
 				which is mostly analytical data. We use TelemetryDeck in the
-				latest version of Talon for iOS, and this will roll out to more
-				apps over time. All of the analytical data collected is private
-				and anonymous, and it mostly includes things like device type,
-				OS version, app version, and what features of the app you use.
+				latest version of Ruby for iOS, as well as RevenueCat.
+			    All of the analytical data collected is private and anonymous, 
+				and it mostly includes things like device type, OS version, 
+				app version, and what features of the app you use.
 			</p>
 			<p>
-				In Talon, we&apos;ve built a new in house Link Shortener,
-				talon.link - which essentially only stores the data related to
-				that link shortening request - such as the time it was made, the
-				link being shortened - and the short code that was generated.
-				Talon for iOS also stores data on iCloud which is handled by
-				Apple. Talon has integrations with a large range of platforms,
-				including Discord, Slack, IFTTT, and all of that data is stored
-				by those respective platforms, not us.
+				Bookmarks sync across your Apple devices, whether that be iPhone,
+				iPad, Mac, or Apple Vision. Regardless of what device you're using,
+				we do not have your Bookmark data. All of that is handled by
+				Apple's iCloud service.
 			</p>
 			<p>
-				In Ruby, there is no data collected as of now,
-				however - Ruby uses the Microsoft News API, and data may be
-				collected by Microsoft when sending requests to their API. In
-				addition to that, user data such as Bookmarks and other user
-				preferences may be stored in iCloud and on device. This data is
-				not accessible by me.
+				Since Ruby requires third parties to collect the news, they may
+				collect some data when requesting the news, including your IP address,
+				timezone, or similar.
 			</p>
 			<p>
-				As for unreleased projects, details on their data collection
-				will not be mentioned here as it is rapidly evolving and subject
-				to change, however - crash data and user feedback may be
-				collected by Apple and Google if you&apos;re participating in
-				any testing programs.
-			</p>
-			<p>
-				In addition, our apps may link to external sites, such as
-				Twitter - and your data may be collected by those third parties.
+				In addition, Ruby will link to external sites, primarily news
+				publishers - and your data may be collected by those third parties.
 				In an app like Ruby, where the content is primarily provided by
 				third parties, since they&apos;re news articles - it is
 				imperative that you know that data may be collected by those

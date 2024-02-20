@@ -12,9 +12,8 @@ import PeroxaanIcon from "./PeroxaanIcon";
 
 const navLinks = {
 	Blog: "/newsroom",
-	Ruby: "/ruby",
-	Talon: "/talon",
-	Evergreen: "/evergreen",
+	PressKit: "/presskit",
+	PrivacyPolicy: "/privacy"
 };
 
 const links = Object.entries(navLinks).map(([name, href]) => (
@@ -61,7 +60,7 @@ export default function Navbar() {
 				href="/"
 				className="rounded-lg px-2 py-2 text-2xl font-extrabold transition-colors ease-in-out hover:bg-zinc-200 dark:hover:bg-zinc-800 xl:px-6"
 			>
-				<div className="bg-gradient-to-r from-pink-400 to-pink-500 bg-clip-text text-transparent dark:from-pink-200 dark:to-pink-300">
+				<div className="bg-gradient-to-r from-pink-300 to-pink-400 bg-clip-text text-transparent dark:from-pink-300 dark:to-pink-400">
 					Ruby - Your News Assistant
 				</div>
 			</Link>
