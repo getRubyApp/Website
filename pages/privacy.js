@@ -14,7 +14,7 @@ export default function Privacy() {
 				First and foremost, majority of data is actually collected by
 				third parties, and we don&apos;t have access to most of it. 
 				Between clicking on articles, saving bookmarks, or anything else,
-				we don't collect any user data on what you're specifically doing.
+				we don&apos;t collect any user data on what you&apos;re specifically doing.
 			</p>
 			<p>
 				There is a very limited amount of data we actually collect,
@@ -26,9 +26,9 @@ export default function Privacy() {
 			</p>
 			<p>
 				Bookmarks sync across your Apple devices, whether that be iPhone,
-				iPad, Mac, or Apple Vision. Regardless of what device you're using,
+				iPad, Mac, or Apple Vision. Regardless of what device you&apos;re using,
 				we do not have your Bookmark data. All of that is handled by
-				Apple's iCloud service.
+				Apple&apos;s iCloud service.
 			</p>
 			<p>
 				Since Ruby requires third parties to collect the news, they may
