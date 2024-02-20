@@ -25,12 +25,12 @@ export default function Hero() {
 	return (
 		<div className="mx-auto mb-20 grid grid-cols-1 gap-4 lg:grid-cols-2">
 			<h1 className="my-auto max-w-lg text-5xl font-bold md:text-6xl">
-				High-quality{" "}
+				The most{" "}
 				<span
 					className="invisible bg-gradient-to-r from-pink-500 to-pink-700 bg-clip-text text-transparent dark:from-pink-400 dark:to-pink-600"
 					ref={ref}
 				>
-					experiences
+					unique
 				</span>
 				<noscript>
 					<style>
@@ -38,7 +38,7 @@ export default function Hero() {
 					</style>
 				</noscript>
 				<span
-					className="bg-gradient-to-r from-pink-500 to-pink-700 bg-clip-text text-transparent dark:from-pink-400 dark:to-pink-600"
+					className="bg-gradient-to-r from-pink-300 to-pink-400 bg-clip-text text-transparent dark:from-pink-300 dark:to-pink-400"
 					style={{
 						width,
 						marginLeft: width * -1,
@@ -47,7 +47,7 @@ export default function Hero() {
 				>
 					{mounted && (
 						<Typewriter
-							words={["apps", "services", "experiences"]}
+							words={["simple", "native", "easy", "unique"]}
 							typeSpeed={100}
 							deleteSpeed={100}
 							delaySpeed={1000}
@@ -55,13 +55,13 @@ export default function Hero() {
 						/>
 					)}
 				</span>{" "}
-				for iOS, macOS, and Windows.
+				News app for iOS.
 			</h1>
 
 			<div className="relative mx-auto h-72 w-full lg:h-96">
 				<Image
 					fill
-					alt="Apple devices showing my apps running on them."
+					alt="Apple devices showing Ruby running on them."
 					src="/Hero.png"
 					className="object-contain"
 					sizes="(max-width: 1024px) 100vw, (max-width: 1280px) 50vw, 640px"
