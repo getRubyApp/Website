@@ -10,7 +10,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const navLinks = {
-	"Blog": "/newsroom",
+	"Newsroom": "/newsroom",
 	"Press Kit": "/presskit",
 	"Privacy Policy": "/privacy",
 };

@@ -11,7 +11,7 @@ import Menu from "./Menu";
 import PeroxaanIcon from "./PeroxaanIcon";
 
 const navLinks = {
-	"Blog": "/newsroom",
+	"Newsroom": "/newsroom",
 	"Press Kit": "/presskit",
 	"Privacy Policy": "/privacy"
 };
