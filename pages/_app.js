@@ -7,19 +7,19 @@ import { Inter } from "@next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function App({ Component, pageProps }) {
-	const title = pageProps?.seo?.title ?? "Michael Burkhardt";
+	const title = pageProps?.seo?.title ?? "Ruby - Your News Assistant";
 
 	const pageTitle = pageProps?.seo?.title
-		? pageProps.seo.title + " | Michael Burkhardt"
-		: "Michael Burkhardt";
+		? pageProps.seo.title + " | Ruby - Your News Assistant"
+		: "Ruby - Your News Assistant";
 	const description =
 		pageProps?.seo?.description ??
-		"iOS App Developer, Tech Enthusiast, Creator";
+		"A premier news reading experience for iOS.";
 	const image =
 		process.env.NEXT_PUBLIC_URL + (pageProps?.seo?.image ?? "/cover.png");
 	const imageAlt =
 		pageProps?.seo?.imageAlt ??
-		"Peroxaan Studios logo and name on a pink background.";
+		"Ruby logo and name on a pink background.";
 
 	return (
 		<ThemeProvider attribute="class" disableTransitionOnChange>
@@ -32,8 +32,8 @@ export default function App({ Component, pageProps }) {
 				<meta property="og:image" content={image} />
 				<meta property="og:image:alt" content={imageAlt} />
 				<meta property="og:type" content="website" />
-				<meta property="og:url" content="https://michaelb.nyc" />
-				<meta property="og:site_name" content="Michael Burkhardt" />
+				<meta property="og:url" content="https://rubyapp.org" />
+				<meta property="og:site_name" content="Ruby - Your News Assistant" />
 				<meta name="twitter:card" content="summary_large_image" />
 			</Head>
 

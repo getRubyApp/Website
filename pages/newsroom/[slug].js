@@ -45,11 +45,11 @@ export const getStaticProps = ({ params }) => {
 				title: post.title,
 				description:
 					post.description ??
-					"The latest announcements & updates from the Peroxaan team.",
+					"The latest announcements & updates from the Ruby team.",
 				image: post.image ?? "/newsroom.png",
 				imageAlt:
 					post.imageAlt ??
-					"Peroxaan Newsroom logo and name on a white background.",
+					"Ruby logo and name on a white background.",
 			},
 		},
 	};
