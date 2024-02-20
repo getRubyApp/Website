@@ -1,6 +1,6 @@
 ---
 name: Bookmarks
 description: Easily save your articles to access later.
-color: red
+color: pink
 priority: 3
 ---
