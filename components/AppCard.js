@@ -11,6 +11,14 @@ export default function AppCard({ name, description, color = "zinc" }) {
 		pink: "bg-pink-200 hover:bg-pink-300 dark:bg-pink-800 dark:hover:bg-pink-900",
 	};
 
+	/* <Image
+				width="44"
+				height="44"
+				alt={name + " app icon"}
+				src={`/apps/${name}.png`}
+				className="float-left mr-2 rounded-md align-top"
+			/> */
+
 	return (
 		<Link
 			className={clsx(
@@ -19,13 +27,6 @@ export default function AppCard({ name, description, color = "zinc" }) {
 			)}
 			href={"/" + name.toLowerCase()}
 		>
-			<Image
-				width="44"
-				height="44"
-				alt={name + " app icon"}
-				src={`/apps/${name}.png`}
-				className="float-left mr-2 rounded-md align-top"
-			/>
 			<h1 className="mb-2 text-4xl font-extrabold">{name}</h1>
 			<p className="text-xl">{description}</p>
 		</Link>
