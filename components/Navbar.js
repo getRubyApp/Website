@@ -61,7 +61,7 @@ export default function Navbar() {
 				className="rounded-lg px-2 py-2 text-2xl font-extrabold transition-colors ease-in-out hover:bg-zinc-200 dark:hover:bg-zinc-800 xl:px-6"
 			>
 				<div className="bg-gradient-to-r from-pink-300 to-pink-400 bg-clip-text text-transparent dark:from-pink-300 dark:to-pink-400">
-					Ruby - Your News Assistant
+					Ruby
 				</div>
 			</Link>
 			<div className="hidden text-xl font-semibold lg:block">{links}</div>
