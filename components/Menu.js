@@ -10,10 +10,9 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const navLinks = {
-	Blog: "/newsroom",
-	Ruby: "/ruby",
-	Talon: "/talon",
-	Evergreen: "/evergreen",
+	"Blog": "/newsroom",
+	"Press Kit": "/presskit",
+	"Privacy Policy": "/privacy",
 };
 
 export default function Menu({ open, setOpen }) {
@@ -79,22 +78,15 @@ export default function Menu({ open, setOpen }) {
 					</div>
 					<div className="mx-auto flex flex-row">
 						<a
-							href="https://x.com/mbrkhrdt"
-							aria-label="Michael on X"
+							href="https://x.com/getRubyApp"
+							aria-label="Our X (Twitter) Profile"
 							className="p-4"
 						>
 							<IconBrandTwitter size={32} />
 						</a>
 						<a
-							href="https://instagram.com/m.brkhrdt"
-							aria-label="Michael on Instagram"
-							className="p-4"
-						>
-							<IconBrandInstagram size={32} />
-						</a>
-						<a
-							href="https://github.com/mbrkhrdt"
-							aria-label="Michael on GitHub"
+							href="https://github.com/getRubyApp"
+							aria-label="Our GitHub Profile"
 							className="p-4"
 						>
 							<IconBrandGithub size={32} />

@@ -8,6 +8,7 @@ export default function AppCard({ name, description, color = "zinc" }) {
 		red: "bg-red-200 hover:bg-red-300 dark:bg-red-800 dark:hover:bg-red-900",
 		purple: "bg-purple-200 hover:bg-purple-300 dark:bg-purple-800 dark:hover:bg-purple-900",
 		green: "bg-green-200 hover:bg-green-300 dark:bg-green-800 dark:hover:bg-green-900",
+		pink: "bg-pink-200 hover:bg-pink-300 dark:bg-pink-800 dark:hover:bg-pink-900",
 	};
 
 	return (

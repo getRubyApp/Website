@@ -55,7 +55,7 @@ export default function Hero() {
 						/>
 					)}
 				</span>{" "}
-				News app for iOS.
+				News app for Apple devices.
 			</h1>
 
 			<div className="relative mx-auto h-72 w-full lg:h-96">
